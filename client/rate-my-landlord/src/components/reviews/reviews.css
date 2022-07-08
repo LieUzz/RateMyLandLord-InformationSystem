@@ -1,0 +1,422 @@
+.review-container{
+    background-color: #304445;
+    height: 100%;
+}
+
+.landlord-card{ 
+    background-color: white;
+    height: 35vh;
+    width: 100%;
+}
+
+.landlord-card-items{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.landlord-name{
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    font-family: 'Calistoga', cursive;
+}
+
+.review-num{ 
+    position: absolute;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.bottom-row{
+    margin-top: -30px;
+    display: flex;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.icon-text{
+    display: inline;
+    margin-left: 10px;
+}
+
+.question-line{
+    margin-top: 15px;
+}
+
+.upper-row{
+    display: flex;
+}
+
+.top-right{
+    display: inline;
+    margin-left: 500px;
+}
+
+.top-right-row{
+    display: flex;
+}
+
+.category{
+    margin-left: 20px;
+}
+
+.category-text{
+    font-size: 24px;
+    font-weight: bold; 
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+}
+
+.category-icon{
+    width: 20px;
+    height: 20px; 
+    margin-left: 10px; 
+    margin-top: 10px;
+}
+.box0{
+    background-color: #9F3A3A; 
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box1{
+    background-color: #D17171; 
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box2{
+    background-color: #E19B71; 
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box3{
+    background-color: #CCAA52; 
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box4{
+    background-color: #81A763; 
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box5{
+    background-color: #559F7C; 
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.first-number{
+    display: flex;
+    float: left;
+    font-size: 70px;
+    margin-left: 20px;
+    text-align: center;
+    color: white; 
+}
+
+.box-text{
+    color: white;
+    font-weight: bold;  
+    float: left;  
+    margin-top: 60px;
+    text-align: center;
+}
+
+.bottom-row-right{
+    margin-left: 60%;
+    margin-top: 125px;
+}
+
+.button{
+    background-color: #217D83; 
+    width: 250px;
+    height: 50px;
+    display: flex;
+}
+
+.review-text{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Calistoga', cursive;
+}
+
+.review-icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px; 
+    margin-top: 15px; 
+}
+
+.review-section{
+    margin-top: 20px;
+    display: flex;
+}
+
+.review-list{
+    width: 60%;
+}
+
+.review-locations{
+    width: 40%; 
+}
+
+.review-card{
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px;
+    display: flex;
+}
+
+.card-left{
+    width: 65%; 
+    margin-top: 25px;
+}
+
+.card-top-left{
+    margin-left: 20px; 
+    margin-bottom: 20px; 
+}
+
+.card-right{
+    border-left: 1px solid black; 
+    width: 35%; 
+}
+
+.category-rating{
+    display: flex;
+}
+
+.category-rating-text{ 
+    font-size: 15px; 
+}
+
+.box-two0{
+    background-color: #9F3A3A; 
+    width: 75px;
+    height: 75px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box-two1{
+    background-color: #D17171; 
+    width: 75px;
+    height: 75px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box-two2{
+    background-color: #E19B71; 
+    width: 75px;
+    height: 75px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box-two3{
+    background-color: #CCAA52; 
+    width: 75px;
+    height: 75px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box-two4{
+    background-color: #81A763; 
+    width: 75px;
+    height: 75px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.box-two5{
+    background-color: #559F7C; 
+    width: 75px;
+    height: 75px;
+    align-self: center;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.second-number{ 
+    display: flex;
+    float: left;
+    font-size: 50px;
+    margin-left: 20px;
+    text-align: center;
+    color: white; 
+}
+
+.box-text-two{
+    color: white;
+    font-weight: bold;  
+    float: left;  
+    margin-top: 40px;
+    text-align: center;
+}
+
+.box-main-category-text{
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 22px; 
+}
+
+.box-category-text{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.card-left-bottom{
+    margin-left: 50px;
+}
+
+
+.location-text{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.review-paragraph-text{
+    font-size: 14px;
+}
+
+.card-date{ 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-qa{
+    display: flex;
+    margin-left: 15px;
+}
+
+.question-text{
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+.answer-text{ 
+    font-size: 14px; 
+    margin-left: 3px;
+}
+
+.card-questions{
+    margin-top: 50px;
+}
+
+.card-bottom-right{
+    margin-top: 80px; 
+    margin-left: 20px; 
+    display: flex;
+}
+
+.vote{
+    margin-left: 20px; 
+    display: flex;
+}
+
+.vote-icon{ 
+    width: 30px; 
+    height: 30px; 
+}
+
+.score-review{
+    margin-left: 5px;
+    margin-top: 2px; 
+}
+
+.locations{
+    background-color: white;
+    border-radius: 15px;
+    width: 50%; 
+    margin-left: 25%; 
+    margin-top: 30px;
+}
+
+.location-content{
+    padding-top: 20px;
+}
+
+.location-title{
+    font-size: 24px; 
+    margin-left: 85px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.border-location{
+    border: 2px solid #217D83;
+    width: 75%;
+    margin-left: 30px;
+}
+
+.location-list{
+    margin-top: 20px; 
+    margin-left: 30px;
+}
+
+.location-item {
+    display: flex;
+    font-family: 'Calistoga', cursive;
+}
+
+.location-pic {
+    width: 30px;
+    height: 30px;
+}
+
+.category-percent{
+    color: white; 
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 20px;
+}

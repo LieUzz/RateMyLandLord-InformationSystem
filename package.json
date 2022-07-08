@@ -1,0 +1,10 @@
+{
+  "client": "cd client/rate-my-landlord && npm start",
+  "backend": "cd server && nodemon server.js",
+  "dev": "concurrently \"npm run backend\" \"npm run client\"",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.0"
+  }
+}

@@ -1,0 +1,160 @@
+.home-container{
+  background-color: #304445;
+  height: 100vh;
+}
+.header {
+  background-color: #333333;
+  height: 50px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  padding: 0px 10px;
+}
+.logo-title {
+  margin-left: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.header-log {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+.signup-button {
+  background: #217d83;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.login-button{
+  background: #fff;
+  color: #217d83;
+  height: 30px;
+  width: 80px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 10px;
+  line-height: 30px;
+}
+.user-log {
+  width: 30px;
+  height: 30px;
+}
+.home-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-content-top{
+  margin: 50px auto;
+  height: 70px;
+}
+.search-bar{
+  width: 70%;
+  display: flex;
+  background-color: #fff;
+  height: 36px;
+  border-radius: 30px;
+  padding: 0px 10px;
+  align-items: center;
+  font-size: 13px;
+}
+.input-type{
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.list{
+  margin-top: 20px;
+  width: 70%;
+  background-color: #fff;
+  border-top: 20px solid #217D83;
+  position: relative;
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #217D8333;
+  cursor: pointer;
+}
+.filters{
+  top: 0px;
+  position: absolute;
+  left: calc(100% + 20px);
+  background-color: #fff;
+  padding: 20px 50px 30px 20px;
+  border-radius: 20px;
+}
+.checkbox{
+  width: 20px;
+  height: 20px;
+  border:3px solid #5A5A5A;
+  margin-right: 10px;
+}
+.filter-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.filter-name{
+  white-space: nowrap;
+}
+.filter-caption{
+  text-align: center;
+  border-bottom: 1px solid #217D83;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.list-item-left-top{
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+
+.list-item-left-center{
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  color: #217D83;
+}
+.score{
+  font-size: 20;
+  font-weight: bold;
+  padding-right: 5px;
+}
+.list-item-left-bottom{
+  font-size: 16px;
+  color: #000;
+}
+
+.list-item-right-top{
+  color: #666;
+}
+.checkbox-checked{
+  width: 20px;
+  height: 20px;
+  background-color:#5A5A5A;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
